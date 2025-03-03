@@ -248,8 +248,19 @@ span {
 }
 
 /* Services Section */
+.services {
+    background: var(--second-bg-color);
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
 .services-box {
-    background-color: #ff0000; /* خلفية بيضاء */
+    background-color: #000000; /* خلفية بيضاء */
     min-height: 350px; /* زيادة الارتفاع شوية */
     border-radius: 3rem;
     cursor: pointer;
@@ -258,7 +269,7 @@ span {
     justify-content: center;
     align-items: center;
     padding: 3rem; /* زيادة المساحة الداخلية */
-    color: #000000; /* النص أسود */
+    color: #ff0000; /* النص أسود */
 }
 
 .services-box:hover {
@@ -283,7 +294,7 @@ span {
     font-size: 1.5rem; /* تصغير النص */
     font-weight: 400;
     line-height: 1.6; /* مسافة بين السطور للقراءة المريحة */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* ظل للنص */
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.5); /* ظل للنص */
 }
 
 @media (max-width: 768px) {

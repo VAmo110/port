@@ -248,33 +248,22 @@ span {
 }
 
 /* Services Section */
-.services {
-    background: var(--second-bg-color);
-}
-
-.services-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-}
-
 .services-box {
-    background-color: var(--main-color);
-    min-height: 350px; 
+    background-color: #ff0000; /* خلفية بيضاء */
+    min-height: 350px; /* زيادة الارتفاع شوية */
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem; 
-    color: #000000; 
+    padding: 3rem; /* زيادة المساحة الداخلية */
+    color: #000000; /* النص أسود */
 }
 
 .services-box:hover {
     background: transparent;
-    color: var(--text-color); 
+    color: var(--text-color); /* النص أحمر لما أعمل hover */
     transform: scale(1.03);
     border: 2px solid var(--main-color);
 }
@@ -284,15 +273,17 @@ span {
 }
 
 .services-info h4 {
-    font-size: 2.8rem; 
+    font-size: 2.4rem; /* تصغير العنوان */
     font-weight: 500;
     margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* ظل للعنوان */
 }
 
 .services-info p {
-    font-size: 1.7rem; 
+    font-size: 1.5rem; /* تصغير النص */
     font-weight: 400;
-    line-height: 1.6; 
+    line-height: 1.6; /* مسافة بين السطور للقراءة المريحة */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* ظل للنص */
 }
 
 @media (max-width: 768px) {
